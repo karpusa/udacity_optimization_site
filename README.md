@@ -6,9 +6,11 @@
 * $ npm install
 * $ grunt - it run site in browser through http://www.browsersync.io
 
-# Minify css, js, images
+### Minify css, js, images
 
 * $ grunt prod
+
+# Done
 
 #### Part 1: Optimize PageSpeed Insights score for index.html
 
