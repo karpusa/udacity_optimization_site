@@ -22,6 +22,7 @@
 ####Part 2: Optimize Frames per Second in pizza.html
 
 * Loop optimization
+* Optimization JS - document.querySelectorAll to document.getElementsByClassName - https://jsperf.com/getelementsbyclassname-or-queryselectorall
 
 @TODO
 To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js.
