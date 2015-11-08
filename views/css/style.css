@@ -33,11 +33,13 @@ form {
   position: fixed;
   width: 256px;
   z-index: -1;
+  left: 0;
 }
 
 .randomPizzaContainer {
   float: left;
   display: flex;
+  transform: translate3d(0,0,0);
 }
 
 .randomPizzaContainer:after {

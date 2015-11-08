@@ -22,12 +22,10 @@
 ####Part 2: Optimize Frames per Second in pizza.html
 
 * Loop optimization
-* Optimization JS - document.querySelectorAll to document.getElementsByClassName - https://jsperf.com/getelementsbyclassname-or-queryselectorall
+* Optimization JS - document.querySelectorAll to document.getElementsByClassName - https://jsperf.com/getelementsbyclassname-or-queryselectorall, querySelector with ID to getElementById
+* Position left to translate3d CSS animations, it faster and use hardware acceleration
+* Optimization function updatePositions() - refactoring code
 
-@TODO
-To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js.
-
-You might find the FPS Counter/HUD Display useful in Chrome developer tools described here: [Chrome Dev Tools tips-and-tricks](https://developer.chrome.com/devtools/docs/tips-and-tricks).
 
 ### Optimization Tips and Tricks
 * [Optimizing Performance](https://developers.google.com/web/fundamentals/performance/ "web performance")
