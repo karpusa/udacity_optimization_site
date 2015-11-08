@@ -25,6 +25,7 @@
 * Optimization JS - document.querySelectorAll to document.getElementsByClassName - https://jsperf.com/getelementsbyclassname-or-queryselectorall, querySelector with ID to getElementById
 * Position left to translate3d CSS animations, it faster and use hardware acceleration
 * Optimization function updatePositions() - refactoring code
+* Add to main.js function definitions strict mode
 
 
 ### Optimization Tips and Tricks
