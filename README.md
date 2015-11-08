@@ -18,6 +18,7 @@
 * Minify CSS
 * Minify JS
 * Change JS script loading to async
+* Optimize blocking css resources
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
