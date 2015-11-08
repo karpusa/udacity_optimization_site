@@ -7,11 +7,35 @@
     <meta name="author" content=" FILL ME IN ">
     <title>Cameron Pittman: Portfolio</title>
 
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" media="screen">
-
-    <link href="css/prod/style.css" rel="stylesheet" media="screen">
     <link href="css/prod/print.css" rel="stylesheet" media="print">
 
+    <script>
+        var cb = function() {
+          var l = document.createElement('link');
+              h = document.getElementsByTagName('head')[0];
+
+          l.rel = 'stylesheet',
+          l.href = 'css/prod/style.css';
+          h.parentNode.insertBefore(l, h);
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) raf(cb);
+        else window.addEventListener('load', cb);
+      </script>
+
+      <script>
+            WebFontConfig = {
+              google: {
+               families: ["Open Sans:400,700"]
+              }
+            };
+            (function(d) {
+              var wf = d.createElement("script"), s = d.scripts[0];
+              wf.src = "https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js";
+              s.parentNode.insertBefore(wf, s);
+            })(document);
+      </script>
   </head>
 
   <body>
